@@ -1,0 +1,175 @@
+/** 
+    * Plugin Name:  bdwebteam Carousel 2x Post Widget
+    * Plugin URI: http://plugin.bdwebteam.com/bdwebteam-single2x-post-widget
+    * Description: Adds a widget that shows the most recent posts of your site with excerpt, featured image, date by sorting & ordering feature
+    * Author:Md. Mahabub Hasan Manik
+    * Author URI: http://bdwebteam.com/
+    * Version: 1.0.1
+    * Text Domain: bdwebteam
+    * Domain Path: /languages
+    * License: MIT License
+    * License URI: http://opensource.org/licenses/MIT
+*/
+.x-read-more{
+    color: #111111;
+}
+.carousel-2x-post{
+    position: relative;
+}
+.carousel-2x-post-holder .post-formet-icon{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    opacity:.8;
+    font-size: 12px;
+    z-index: 99;
+}
+
+.single2x-post_img{
+    position: relative;
+}
+
+.container {
+    margin-top: 20px;
+}
+.x-view-all{
+    margin-top: 20px;
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+   
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+background: #333;
+bottom: inherit;
+top: 50%;
+width: inherit;
+padding: 10px;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top:10%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size:18px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+    color: #fff;
+}
+
+.header-text h3 span {
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 22px;
+}
+
+.btn-theme {  
+   
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+
+
+.panel-heading {
+    
+    padding: 4px 15px 3px;
+}
